@@ -1,0 +1,400 @@
+@media ( max-width:426px ) {
+    /**============ START COMMON CSS PART ============**/
+
+    .title{
+        margin-bottom: 20px;
+    }
+    .title .line{
+        width: 50%;
+    }
+    .btn{
+        padding: 10px 30px;
+    }
+
+					/**============ END COMMON CSS PART ============**/
+
+
+
+					/**============ START NAV PART ============**/
+
+    .header{
+        width: 100%;
+    }
+    .header .header_logo{
+        padding: 0px 0;
+    }
+    .header .header_logo .header_logo_parts{
+        display: flex;
+        align-items: center;
+    }
+    .header .header_logo .header_logo_parts .header_nav_logo{
+        width: 15%;
+    }
+    .header .header_logo .header_logo_parts .header_nav_title{
+        width: 55%;
+    }
+    .header .header_logo .header_logo_parts .header_nav_text{
+        width: 30%;
+    }
+    .header .header_logo .header_logo_parts .logo{
+        width: 100%;
+    }
+    .header .header_logo .header_logo_parts p{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .header .header_logo .header_logo_parts span{
+        font-size: 10px;
+        margin-bottom: 0px;
+        
+    }
+    .header .header_nav{
+        width: 100%;
+    }
+    .header .header_nav .navbar ul{
+        padding: 0;
+    }
+    .header .header_nav .navbar ul li{
+        font-size: 10px;
+        padding: 0 2px;
+        margin: 0 0px;
+    }
+
+                    /**============ END NAV PART ============**/
+
+
+
+					/**============ START MESSAGE PART ============**/
+
+    .message_section h1{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .message_section p{
+        font-size: 12px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+    .message_section .message_parts{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .message_section .message_parts img{
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+					/**============ END MESSAGE PART ============**/
+
+
+
+
+					/**============ START LATEST NEWS PART ============**/
+
+    .news_section {
+        padding: 20px 0;
+    }
+    .news_section .latest_newspart img{
+        height: 30vh;
+    }
+    .news_section  .latest_newspart h3{
+        font-size: 16px;
+        width: 70%;
+        margin-top: 20px;
+    }
+    .news_section .latest_newspart p{
+        font-size: 12px;
+        margin-top: 15px;
+        width: 60%;
+    }
+					/**============ END LATEST NEWS PART ============**/
+
+
+
+
+					/**============ START UPDATE NEWS PART ============**/
+
+    .updatenews_section {
+        padding: 10px;
+    }
+    .updatenews_section .update_newspart img{
+        height: 40vh;
+        width: 70%;
+    }
+    .updatenews_section  .update_newspart h3{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .updatenews_section .update_newspart p{
+        font-size: 12px;
+        margin-top: 15px;
+        width: 60%;
+    }
+					/**============ END UPDATE NEWS PART ============**/
+
+
+
+
+					/**============ START BAZAR PART ============**/
+
+    .bazar_section{
+        padding: 10px;
+    }
+    .bazar_section ul li .nav-link{
+        font-size: 12px;
+    }
+    .bazar_section .bazar_parts{
+        padding: 10px 0;
+    }
+    .bazar_section .bazar_parts img{
+        width: 100%;
+        margin: 2px;
+    }
+					/**============ END BAZAR PART ============**/
+
+
+
+
+					/**============ START PORTFOLIO PART ============**/
+
+    .protfolio_section{
+        padding: 20px;
+    }
+    .protfolio_section ul li .nav-link{
+        font-size: 12px;
+    }
+    .protfolio_section .bazar_parts{
+        padding: 20px 0;
+    }
+    .protfolio_section .bazar_parts img{
+        width: 100%;
+        margin: 2px;
+    }
+					/**============ END PORTFOLIO PART ============**/
+
+
+
+					/**============ START FOOTER PART ============**/
+
+    .footer_section .footer_logo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer_section .footer_logo img{
+        width: 40%;
+    }
+					/**============ END FOOTER PART ============**/
+
+}
+
+
+@media ( min-width:427px ) and ( max-width :769px ) {
+
+					/**============ START NAV PART ============**/
+
+    .header .header_logo .header_logo_parts{
+        display: flex;
+        align-items: center;
+    }
+    .header .header_logo .header_logo_parts .header_nav_logo{
+        width: 15%;
+    }
+    .header .header_logo .header_logo_parts .header_nav_title{
+        width: 55%;
+    }
+    .header .header_logo .header_logo_parts .header_nav_text{
+        width: 30%;
+    }
+    .header .header_logo .header_logo_parts .logo{
+        width: 100%;
+    }
+    .header .header_logo .header_logo_parts p{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .header .header_logo .header_logo_parts span{
+        font-size: 14px;
+        margin-bottom: 0px;
+        
+    }
+    .header .header_nav{
+        width: 100%;
+    }
+    .header .header_nav .navbar ul{
+        padding: 0;
+    }
+    .header .header_nav .navbar ul li{
+        font-size: 12px;
+        padding: 0 5px;
+        margin: 0 0px;
+    }
+                    /**============ END NAV PART ============**/
+
+
+
+                    /**============ START MESSAGE PART ============**/
+
+    .message_section h1{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .message_section p{
+        font-size: 12px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+    .message_section .message_parts{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .message_section .message_parts img{
+        width: 90%;
+    }
+                        /**============ END MESSAGE PART ============**/
+
+
+
+
+                        /**============ START LATEST NEWS PART ============**/
+
+    .news_section {
+        padding: 20px 0;
+    }
+    .news_section .latest_newspart img{
+        height: 30vh;
+    }
+    .news_section  .latest_newspart h3{
+        font-size: 20px;
+        width: 70%;
+        margin-top: 20px;
+    }
+    .news_section .latest_newspart p{
+        font-size: 15px;
+        margin-top: 15px;
+        width: 60%;
+    }
+                    /**============ END LATEST NEWS PART ============**/
+
+
+
+
+                    /**============ START UPDATE NEWS PART ============**/
+
+    .updatenews_section {
+        padding: 10px 0;
+    }
+    .updatenews_section .update_newspart img{
+        height: 40vh;
+        width: 70%;
+    }
+    .updatenews_section  .update_newspart h3{
+        font-size:20px;
+        margin-top: 20px;
+    }
+    .updatenews_section .update_newspart p{
+        font-size: 15px;
+        margin-top: 15px;
+        width: 60%;
+    }
+                    /**============ END UPDATE NEWS PART ============**/
+
+
+
+
+                    /**============ START BAZAR PART ============**/
+
+    .bazar_section{
+        padding: 10px;
+    }
+    .bazar_section ul li .nav-link{
+        font-size: 12px;
+    }
+    .bazar_section .bazar_parts{
+        padding: 10px 0;
+    }
+    .bazar_section .bazar_parts img{
+        width: 29%;
+        margin-bottom: 2px;
+    }
+
+                        /**============ END BAZAR PART ============**/
+
+
+
+
+                        /**============ START PORTFOLIO PART ============**/
+
+    .protfolio_section{
+        padding: 20px;
+    }
+    .protfolio_section ul li .nav-link{
+        font-size: 12px;
+    }
+    .protfolio_section .bazar_parts{
+        padding: 20px 0;
+    }
+    .protfolio_section .bazar_parts img{
+        width: 29%;
+        margin-bottom: 2px;
+    }
+
+                        /**============ END PORTFOLIO PART ============**/
+
+
+    					/**============ START FOOTER PART ============**/
+
+    .footer_section .footer_logo{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .footer_section .footer_logo img{
+        width: 100%;
+    }
+    .footer_section p{
+        margin-bottom: 0;
+    }
+}
+
+
+@media ( min-width:770px ) and ( max-width :1025px ) {
+    
+                    /**============ START BAZAR PART ============**/
+
+    .bazar_section{
+        padding: 10px;
+    }
+    .bazar_section ul li .nav-link{
+        font-size: 16px;
+    }
+    .bazar_section .bazar_parts{
+        padding: 10px 0;
+    }
+    .bazar_section .bazar_parts img{
+        width: 30%;
+        margin-bottom: 2px;
+    }
+
+    /**============ END BAZAR PART ============**/
+
+
+
+
+    /**============ START PORTFOLIO PART ============**/
+
+    .protfolio_section{
+        padding: 20px;
+    }
+    .protfolio_section ul li .nav-link{
+        font-size: 16px;
+    }
+    .protfolio_section .bazar_parts{
+        padding: 20px 0;
+    }
+    .protfolio_section .bazar_parts img{
+        width: 30%;
+        margin-bottom: 2px;
+    }
+}
