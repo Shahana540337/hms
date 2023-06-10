@@ -25,10 +25,16 @@
 
 					/**============ START MESSAGE PART ============**/
 
+.about_section .aboutPart_text{
+    padding-left: 0px;
+}                    
 .about_section .counter_part{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+.about_section .counter_parts{
+    width: 30%;
 }
 .about_section .counter_part h1{
     font-size: 15px;
@@ -37,8 +43,8 @@
     font-size: 10px;
 }
 .about_section .counter_part img{
-    width: 10%;
-    height: 10%; 
+    width: 50%;
+    height: 50%; 
 }
 .about_section .aboutPart_photo{
     width: 100%;
@@ -46,21 +52,34 @@
 .about_section .aboutPart_text{
     width: 100%;
 }
-.about_section  .counter_part{
-    display: flex;
-    justify-content: space-between;
-}
-
-.about_section .counter_part .counter_text{
-    width: 30%;
-}
 
 					/**============ END MESSAGE PART ============**/
 
 
 
-
 					/**============ START LATEST NEWS PART ============**/
+
+.emergency_section .emergency_contant {
+    padding-left: 10px;
+}                    
+.emergency_section .emergency_videoPart img{
+    width: 100%;
+    height: 200px;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_leftSide{
+    width: 20%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_rightSide{
+    width: 70%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_leftSide img{
+    width: 100%; 
+    height: 100%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergancy_information .emergancy_information_details{
+    display: flex;
+    align-items: center;
+}
 
 
 					/**============ END LATEST NEWS PART ============**/
@@ -70,6 +89,9 @@
 
 					/**============ START UPDATE NEWS PART ============**/
 
+.service_section .service_part{
+    padding: 0px;
+}
 
 					/**============ END UPDATE NEWS PART ============**/
 
@@ -78,6 +100,9 @@
 
 					/**============ START BAZAR PART ============**/
 
+#founders_parts .card{
+    margin: 0 auto;
+}
 
 					/**============ END BAZAR PART ============**/
 
