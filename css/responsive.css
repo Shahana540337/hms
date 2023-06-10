@@ -149,9 +149,26 @@
 
 
                         /**============ START LATEST NEWS PART ============**/
-/* .about_section .counter_part img{
-    width: 10%;
-    height: 10%; 
+.about_section .aboutPart_text{
+    padding-left: 0px;
+}                    
+.about_section .counter_part{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about_section .counter_parts{
+    width: 30%;
+}
+.about_section .counter_part h1{
+    font-size: 15px;
+}
+.about_section .counter_part p{
+    font-size: 10px;
+}
+.about_section .counter_part img{
+    width: 50%;
+    height: 50%; 
 }
 .about_section .aboutPart_photo{
     width: 100%;
@@ -159,10 +176,7 @@
 .about_section .aboutPart_text{
     width: 100%;
 }
-.about_section .about_section .counter_part{
-    display: flex;
-    justify-content: space-between;
-} */
+
 
                     /**============ END LATEST NEWS PART ============**/
 
@@ -171,6 +185,33 @@
 
                     /**============ START UPDATE NEWS PART ============**/
 
+.emergency_section .emergency_contant {
+    padding-left: 10px;
+}                    
+.emergency_section .emergency_videoPart img{
+    width: 100%;
+}
+.emergency_section .emergency_contant .emergency_textPart {
+    width: 50%;
+}
+.emergency_section .emergency_contant .emergency_picturePart {
+    width: 50%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_leftSide{
+    width: 20%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_rightSide{
+    width: 70%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_leftSide img{
+    width: 50%; 
+    height: 50%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergancy_information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
                     /**============ END UPDATE NEWS PART ============**/
 
@@ -179,7 +220,12 @@
 
                     /**============ START BAZAR PART ============**/
 
-
+.clients_section .clients_part .client_imagePart{
+    text-align: center;
+}
+.clients_section .clients_part .client_imagePart img{
+    width: 50%;
+}
 
                         /**============ END BAZAR PART ============**/
 
