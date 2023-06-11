@@ -23,12 +23,11 @@ a{
         color:#01b3fb;
 }
 .btn{
-    /* font-weight: bold; */
 	color: #101010;
-	padding: 10px 20px;
 	background: #fff;
-    /* border-radius: 10px; */
+	padding: 10px 20px;
     box-sizing: border-box;
+    border-radius: 0px;
     transition: .4s;
     border: 1px solid rgb(12, 145, 254);
 }
@@ -67,7 +66,48 @@ a{
                     
 					/**============ START BANNER PART ============**/
 
+.banner_section{
+    background: linear-gradient(#5893b5,#afe5ff);
+    padding: 0px 100px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.banner_section .banner_part{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.banner_section .banner_left h2{
+    font-size: 30px;
+    color: #111111;
+}
+.banner_section .banner_left h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #111111;
+}
+.banner_section .banner_left p{
+ 	font-size: 14px;
+    text-align: justify;
+ 	color: #505358;
+}
+.banner_section .banner_left .btn{
+ 	font-size: 13px;
+ 	color: #ffffff;
+ 	margin: 0px 10px;
+    background-color: #00b3fe;
+}
 
+.banner_section .banner_left .btn:hover{
+	background-color: #004274;
+}
+ 
+.banner_section .banner_right {
+    padding-left: 50px;
+}
+.banner_section .banner_right img{
+    width: 100%;
+}
 
 					/**============ END BANNER PART ============**/
 
@@ -76,7 +116,55 @@ a{
 
 					/**============ START MESSAGE PART ============**/
 
+.shortServices_section .card{
+    transition: .5s;
+}
+.shortServices_section .card:hover{
+    transform: translateY(-20px);
+}
+.shortServices_section .short_parts{
+    padding: 20px 0;
+    transition: .5s;
+}
+.shortServices_section .short_parts:hover{
+    background-color: #0099dc;
+    color: aliceblue;
+}
+.shortServices_section .short_parts i{
+    font-size: 50px;
+}
+.shortServices_section .short_parts p{
+    font-size: 14px;
+}
 
+.shortServices_section .short_parts a{
+    display: none;
+}
+.shortServices_section .short_parts:hover a{
+    display: inline;
+}
+/* 
+.services_section .card{
+    transition: .4s;
+}
+.services_section .card:hover{
+    transform: translateY(-10px);
+}
+
+
+.services_section .card_1 p{
+    font-size: 14px;
+}
+
+.services_section .card_1 a{
+    display: none;
+}
+.services_section .card_1:hover a{
+    display: inline;
+}
+.card_1{
+    background-color: #00b3fe;
+} */
 
 					/**============ END MESSAGE PART ============**/
 

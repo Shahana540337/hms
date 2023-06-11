@@ -17,7 +17,31 @@
 
 					/**============ START NAV PART ============**/
 
-
+.banner_section .banner_left{
+    text-align: center;
+}
+.banner_section .banner_right {
+    padding-left: 0px;
+}                    
+.banner_section{
+    padding: 20px 20px 0 20px;
+}
+.banner_section .banner_left h2{
+    font-size: 20px;
+}
+.banner_section .banner_left h1{
+    font-size: 30px;
+}
+.banner_section .banner_left p{
+ 	font-size: 12px;
+}
+.banner_section .banner_right {
+    padding-left: 0px;
+    text-align: center;
+}
+.banner_section .banner_right img{
+    width: 80%;
+}
 
                     /**============ END NAV PART ============**/
 
@@ -134,6 +158,18 @@
 
 					/**============ START NAV PART ============**/
 
+.banner_section .banner_left{
+    padding: 50px 0 0px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.banner_section .banner_right {
+    padding-left: 0px;
+    text-align: center;
+}
+.banner_section .banner_right img{
+    width: 50%;
+}
 
                     /**============ END NAV PART ============**/
 
@@ -141,7 +177,12 @@
 
                     /**============ START MESSAGE PART ============**/
 
-
+.shortServices_section{
+    padding: 0 50px;
+}
+.shortServices_section .short_parts{
+    padding: 20px 20px;
+}
 
                     /**============ END MESSAGE PART ============**/
 
@@ -270,7 +311,18 @@
 
 
 
+                    /**============ END BANNER PART ============**/
 
-                    /**============ START PORTFOLIO PART ============**/
+.banner_section .banner_left h2{
+    font-size: 20px;
+}
+.banner_section .banner_left h1{
+    font-size: 30px;
+}
+.banner_section .banner_left p{
+ 	font-size: 12px;
+}
+
+                    /**============ START BANNER PART ============**/
 
 }
