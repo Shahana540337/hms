@@ -123,7 +123,7 @@ a{
     transform: translateY(-20px);
 }
 .shortServices_section .short_parts{
-    padding: 20px 0;
+    padding: 40px 0 10px 0;
     transition: .5s;
 }
 .shortServices_section .short_parts:hover{
@@ -143,28 +143,7 @@ a{
 .shortServices_section .short_parts:hover a{
     display: inline;
 }
-/* 
-.services_section .card{
-    transition: .4s;
-}
-.services_section .card:hover{
-    transform: translateY(-10px);
-}
 
-
-.services_section .card_1 p{
-    font-size: 14px;
-}
-
-.services_section .card_1 a{
-    display: none;
-}
-.services_section .card_1:hover a{
-    display: inline;
-}
-.card_1{
-    background-color: #00b3fe;
-} */
 
 					/**============ END MESSAGE PART ============**/
 
@@ -297,6 +276,7 @@ a{
 
 .service_section .card-body a{
     display: none;
+    color: #004272;
 }
 .service_section .card-body:hover a{
     display: inline;
@@ -560,15 +540,15 @@ display: inline;
 
 					/**============ START COPYRIGHT PART ============**/
 
-/* .copyright_section{
+.copyright_section{
     background: #063852;
     color: #fff;
     padding: 10px 0;
-} */
-/* .copyright_section .copyright_part p{
+}
+.copyright_section .copyright_part p{
     font-size: 12px;
 margin-bottom: 0px;
-} */
+}
 
 					/**============ END COPYRIGHT PART ============**/
 
