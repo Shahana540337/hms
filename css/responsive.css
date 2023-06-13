@@ -43,6 +43,13 @@
     width: 80%;
 }
 
+.dropend:hover > .dropdown-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 35px;
+}
+
                     /**============ END NAV PART ============**/
 
 

@@ -55,9 +55,28 @@ a{
 .header nav .nav-link.active{
     color: #00b3fe;
 }
+/* .header nav .nav-link:visited{
+    color: red;
+} */
 .header nav .nav-link:hover{
     color: #00b3fe;
 }
+
+
+.dropdown:hover > .dropdown-menu , .dropend:hover > .dropdown-menu{
+    display: block;
+    margin-top: 5px;
+    /* margin-left: 100%; */
+}
+.dropdown .dropdown-menu {
+    display: none;
+}
+.dropend:hover > .dropdown-menu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
 					/**============ END NAV PART ============**/
 
 
@@ -116,6 +135,9 @@ a{
 
 					/**============ START MESSAGE PART ============**/
 
+.shortServices_section {
+    padding: 0 100px;
+}
 .shortServices_section .card{
     transition: .5s;
 }
@@ -265,10 +287,12 @@ a{
 }
 .service_section .card{
     transition: .4s;
+    behavior: smooth;
+    scroll-behavior: smooth;
 }
-.service_section .card:hover{
+/* .service_section .card:hover{
     transform: translateY(-10px);
-}
+} */
 
 .service_section .card-body i{
     font-size: 50px;
@@ -515,7 +539,7 @@ display: inline;
     font-size: 22px;
     font-weight: 500;
     color: #fff;
-    text-decoration: underline #063852;
+    text-decoration: underline #fff;
 }
 .footer_section p{
     color: #fff;

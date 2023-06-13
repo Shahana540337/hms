@@ -39,15 +39,30 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
+                            Medical Services
                             </a>
                             <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">SURGICAL DEPARTMENT </a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">SKIN CARE DEPARTMENT</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">EMERGENCY DEPARTMENT</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">GYNECOLOGY DEPARTMENT</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">PREGNANCY DEPARTMENT</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li class="nav-item dropend">
+                                    <a class="dropdown-item dropdown-toggle" href="#" role="button"  aria-expanded="false">
+                                    DAIGNOSTIC CENTER
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">RADIOLOGY DEPARTMENT </a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">PATHOLOGY DEPARTMENT</a></li>
+                                    </ul>
+                                </li>
                             </ul>
-                        </li>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./gallery.html">Gallery</a>
@@ -57,9 +72,9 @@
                             Team
                             </a>
                             <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./Doctors.html">Doctors</a></li>
+                            <li><a class="dropdown-item" href="./Doctors_Team.html">Doctors</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Nurses</a></li>
+                            <li><a class="dropdown-item" href="./Nurses_Team.html">Nurses</a></li>
                             </ul>
                         </li>
                         
@@ -278,6 +293,52 @@
 
 
 
+                        <!--================ START APPOINTMENT PART ================-->
+
+    <section id="appointment_part">
+        <div class="container">
+            <div class="row py-5 align-items-center">
+                <div class="col-lg-6 col-md-6 p-5">
+                    <div class="appointment_details">
+                        <h1>Book Appointment</h1>
+                        <h2>Book An Appointment Online Today</h2>
+                        <img src="./img/appointment.png" alt="appointment.png" style="height: 100%; width: 100%;">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 py-5 ">
+                    <div class="card p-4">
+                        <div class="appointment_form">
+                            <div class="mb-3">
+                            <form action="">
+                                <input type="name" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Enter Your Name">
+                                <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Enter Your Email">
+                                <input type="number" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Enter Your Phone Number">
+                                <label for="exampleFormControlInput1" class="form-label">Booking For :</label>
+                                <select class="form-select mb-3" aria-label="Default select example">
+                                    <option selected>Select Here</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Three</option>
+                                    <option value="5">Three</option>
+                                    <option value="6">Three</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Input Your Messages Here"></textarea>
+                            </div>
+                                <a class="btn" href="">Book An Appointment</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                        <!--================ END APPOINTMENT PART ================-->
+
+
 
                         <!--================ END SERVICE PART ================-->
 
@@ -398,7 +459,7 @@
                             <p>Pasiychiatrst</p>
                             </div>
                         </div>
-                        <a href="">Read More</a>
+                        <a href="./Doctors_information.html">View More</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 py-4">
@@ -412,7 +473,7 @@
                             <p>Pasiychiatrst</p>
                             </div>
                         </div>
-                        <a href="">Read More</a>
+                        <a href="./Doctors_information.html">View More</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 py-4">
@@ -426,7 +487,7 @@
                             <p>Pasiychiatrst</p>
                             </div>
                         </div>
-                        <a href="">Read More</a>
+                        <a href="./Doctors_information.html">View More</a>
                     </div>
                 </div>
             </div>
@@ -469,7 +530,7 @@
                 </div>
             </div>
             <div class="col-12 text-center">
-                <a class="btn">See All Images</a>
+                <a href="./gallery.html" class="btn">See All Images</a>
             </div>
         </div>
     </section>
@@ -649,16 +710,7 @@
     <section class="footer_section" id="footer_section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <h1 class="text-center">Contact</h1>
-                    <p><strong>Address:</strong> House: 2, Floor:2nd & 3rd, Road: 23/C, Gulshan-01, Dhaka-1212.</p>
-                    <p><strong>Land Phone:</strong> +8802-222261526,+8802-48812258</p>
-                    <p><strong>IP Phone:</strong>  +8809636373839 </p>                     
-                    <p><strong>Fax:</strong> +8802-222261296</p>
-                    <p><strong>Mobile:</strong> +8801729098714</p>
-                    <p><strong>E-mail:</strong> <a href="">womenchamber.office@gmail.com, womenchamber@bwcci-bd.org</a></p>
-                                
-                </div>
+                <div class="col-lg-2 col-md-2 text-center"></div>
                 <div class="col-lg-2 col-md-2 text-center">
                     <h1 >Quick Links</h1>
                     <ul>
@@ -687,6 +739,16 @@
                         <li><a href="">SMEF</a></li>
                         <li><a href="">Bangladesh Bank</a></li>
                     </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h1 class="text-center">Contact</h1>
+                    <p><strong>Address:</strong> House: 2, Floor:2nd & 3rd, Road: 23/C, Gulshan-01, Dhaka-1212.</p>
+                    <p><strong>Land Phone:</strong> +8802-222261526,+8802-48812258</p>
+                    <p><strong>IP Phone:</strong>  +8809636373839 </p>                     
+                    <p><strong>Fax:</strong> +8802-222261296</p>
+                    <p><strong>Mobile:</strong> +8801729098714</p>
+                    <p><strong>E-mail:</strong> <a href="">womenchamber.office@gmail.com, womenchamber@bwcci-bd.org</a></p>
+                                
                 </div>
             </div>
         </div>
