@@ -1,0 +1,19 @@
+.allDepartment_section {
+    padding: 50px 0;
+}
+.allDepartment_section .allPart_photo img{
+    height: 300px;
+    width: 100%;
+}
+.allDepartment_section .allPart_text{
+    padding-left: 50px;
+}
+.allDepartment_section .allPart_text h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.allDepartment_section .allPart_text p{
+    color: #585858;
+    font-size: 15px;
+    font-weight: 400;
+}
