@@ -146,31 +146,26 @@ a{
 }
 .shortServices_section .card{
     transition: .5s;
+    border-radius: 0;
+    border: 1px  solid #fff;
 }
 .shortServices_section .card:hover{
     transform: translateY(-20px);
 }
 .shortServices_section .short_parts{
-    padding: 40px 0 10px 0;
-    transition: .5s;
-}
-.shortServices_section .short_parts:hover{
     background-color: #0099dc;
     color: aliceblue;
+    padding: 40px 0 20px 0;
+    transition: .5s;
 }
 .shortServices_section .short_parts i{
     font-size: 50px;
 }
 .shortServices_section .short_parts p{
     font-size: 14px;
+    margin-bottom: 0px;
 }
 
-.shortServices_section .short_parts a{
-    display: none;
-}
-.shortServices_section .short_parts:hover a{
-    display: inline;
-}
 
 
 					/**============ END MESSAGE PART ============**/
@@ -318,6 +313,14 @@ a{
 
 					/**============ START FOUNDERS PART ============**/
 
+
+#founders_parts .card .image{
+  margin: 0 auto;
+}
+#founders_parts .card .image img{
+  height: 300px;
+  object-fit: cover;
+}                    
 #founders_parts .card{
     transition: .4s;
 }
@@ -337,23 +340,8 @@ a{
  color:#fff;
  font-size: 16px;
 }
-#founders_parts .card .image{
-  margin: 0 auto;
-}
-#founders_parts .card .image img{
-  height: 300px;
-  object-fit: cover;
-}
 #founders_parts .card a{
- display: none;
-}
-#founders_parts .card:hover a{
-transition: .4s;
-text-align: center;
-color: rgb(255, 255, 255);
-background: #00b3fe;
-padding: 10px;
-display: inline;
+ display: block;
 }
 
 					/**============ END FOUNDERS PART ============**/
@@ -434,7 +422,7 @@ display: inline;
 					/**============ START TAKE CARE PART ============**/
 
 .takeCare_section{
-    padding-top: 70px;
+    padding: 70px 0 30px 0;
     background-color: #33c1ff;
 }
     
@@ -445,9 +433,12 @@ display: inline;
 .takeCare_section h3{
     font-size: 35px;
     color: #004272;
+    margin-bottom: 20px;
 }
 .takeCare_section p{
     color: #edf7ff;
+    margin-bottom: 0;
+
 }
 #takeCare_section a{
     display: inline-block;
