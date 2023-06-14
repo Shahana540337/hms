@@ -19,10 +19,15 @@
 }
 
 
-.daignostic_section img{
-    position: relative;
+
+.daignostic_section p{
+    margin-bottom: 0;
 }
-.daignostic_section .overlay{
+.radiologyPathology_section img{
+    position: relative;
+    /* filter: blur(.6); */
+}
+.radiologyPathology_section .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -31,7 +36,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgba(0, 0, 0, .2);
 }
-.daignostic_section p{
-    margin-bottom: 0;
+.radiologyPathology_section .overlay p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
 }
